@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CPU Frequency Scaling On Linux With `cpupower`"
+title:  "CPU Frequency Scaling On Linux With cpupower"
 date:   2019-03-13 15:30:04 +0800
 categories: jekyll update
 ---
@@ -10,14 +10,19 @@ CPU frequency scaling enable OS to scale the frequency of the CPU for several pu
 Several notes: 
 +   This is tutorial is written using Ubuntu, but also tested in Arch, should works well with other linux distro too.
 +   Most of the commands used below requires root permission.
+<br>
+<br>
+
 
 ## Installing `cpupower`
 Enter the command below to install the needed tools
 ```
 $ sudo apt install linux-tools-common linux-tools-generic linux-tools-`uname -r`
 ```
+<br>
 
 ## Steps before configuring the frequency
+<br>
 
 ### Changing your CPU driver
 Run the command to attain CPU information:
@@ -43,7 +48,8 @@ $ update-grub
 ```
 
 Upon the next boot, check again the driver in use. If it shows `acpi-cpufreq` as result then we have successfully replaced the driver. To switch it back simply remove the phrase `intel_pstate=disable` from the line and run `update-grub` again.
-
+<br>
+<br>
 ### Changing CPU governor
 Run the command:
 ```
@@ -79,7 +85,7 @@ To choose `userspace` as the CPU governor and scale the frequency, run the follo
 $ sudo cpupower frequency-set -g userspace
 $ sudo cpupower frequency-set -f 1400MHz
 ```
-The input unit for the frequency can be Hz, Mhz and Ghz.
+The input unit for the frequency can be Hz, MHz and GHz.
 
 Your CPU should now running at your desired speed.
 ```
