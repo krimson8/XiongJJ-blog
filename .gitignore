@@ -26,3 +26,6 @@ _site/
 
 # Ruby
 Gemfile.lock
+
+# VIM swap files in case
+.swp
