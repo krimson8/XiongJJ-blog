@@ -1,31 +1,14 @@
-# Mac Specific
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Icon must end with two \r
-Icon
+# Compiled site
+_site
 
+# Sass garbage
+.sass-cache
 
-# Thumbnails
-._*
+# Bundler
+.bundle/
+vendor/
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Jekyll Specific
-_site/
-
-# Ruby
-Gemfile.lock
-
-# VIM swap files in case
+# VIM swp
 .swp

@@ -4,15 +4,13 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<img src="{{ site.baseurl }}/assets/logo.jpg" title="Profile Picture" class="profile">
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Hello guys!
+This is my personal blog, will post mainly articles about technical and programming problems, probably comes with solutions. Here are my contact methods:
++   Facebook: [link](https://www.facebook.com/xiong.jia.5)
++   Github: [link](https://github.com/krimson8)
++   Email: krimson8@gmail.com
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<br>
+Site built with jekyll and hosted on github-pages. Theme used: [Centrarium](https://github.com/bencentra/centrarium). Post commenting powered by [disqus](https://disqus.com/).

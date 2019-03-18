@@ -2,7 +2,9 @@
 layout: post
 title:  "CPU Frequency Scaling On Linux With cpupower"
 date:   2019-03-13 15:30:04 +0800
-categories: jekyll update
+author: XiongJJ
+comments: true
+categories: linux
 ---
 
 CPU frequency scaling enable OS to scale the frequency of the CPU for several purpose, including power saving and for bench-marking purpose. This tutorial shows how to scale the frequency of CPU manually using `cpupower`.
